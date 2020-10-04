@@ -55,7 +55,7 @@ td{
     /* position: relative; */
     font-size: 3rem;
     margin-top: 10%;
-    margin-left: 50%;
+    
 }
 #cost:hover{
     color:#742173;
@@ -136,7 +136,10 @@ button{
     #cost{
         font-size: 1.5rem;
         margin-top: 10%;
-        margin-left: 50%;
+        margin-left: 0;
+    }
+    .receipt h4{
+        margin-left:0;
     }
     button{
         width: 10rem;
