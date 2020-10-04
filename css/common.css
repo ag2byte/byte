@@ -1,0 +1,32 @@
+*{
+    border:0;
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    font-family: 'Quicksand',arial;
+    min-width: 360px;
+    /* background: blue; */
+}
+
+body::-webkit-scrollbar {
+    width: 0.75rem;
+}
+
+body::-webkit-scrollbar-track {
+    background: #a262b6;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #742173;
+}
+button:hover{
+    transition: 150ms ease-in   ;
+    color: #742173;
+    outline-width: 5px ;
+    outline-style: solid;
+    outline-color: #742173;
+    background-color: white;
+
+}

@@ -1,0 +1,239 @@
+
+
+
+.intro{
+    width:100%;
+    height: 100vh;
+    background: url('../images/2299682.jpg');
+    background-attachment: fixed;
+   
+}
+
+.intro span{
+    font-family: 'Gugi',sans-serif;
+    font-size:10rem;
+    color:white;
+    position: fixed;
+    /* opacity: 1; */
+    transition: 300ms ease-out;
+   
+    
+}
+.intro p{
+    position: fixed;
+    margin-top: 40vh;
+    right:10vw;
+    width: 20vw;
+    color: white;
+    font-size: 1.75rem;
+    transition: 400ms ease-out;
+
+
+}
+#space-div{
+    /* margin-top: 100px; */
+    background:#f0efed;
+    width: 100%;
+    height:100vh;
+
+   
+  
+    
+}
+#space-div h1{
+    padding-top:10vh;
+    margin-left:45%;
+}
+
+#space-table{
+    /* position: relative; */
+    margin-top:10vh;
+    margin-left: 10% ;
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: center;
+    width:80%;
+    font-family: 'Quicksand',Arial, Helvetica, sans-serif;
+}
+#space-table thead{
+    font-size: 1.25rem;
+    font-weight: bold;
+    height: 5rem;
+    margin-bottom: 1rem;
+}
+.table-row{
+    font-size:1.125rem;
+    height: 3rem;
+}
+.table-row:hover{
+    transition: 150ms ease;
+    background: #742173;
+    cursor: pointer;
+    color:white
+}
+
+
+.rec-generate{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 5rem;
+    background: white;
+    outline-style: solid;
+    outline-width: 8px;
+    outline-color: #742173;
+    color: #742173;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+
+.rec-generate span{
+    /* position: relative; */
+    margin-top:1rem;
+    margin-right: 4rem;
+    font-size:2rem;
+    /* color:white; */
+    font-weight: bold;
+}
+.rec-generate button{
+    /* position: relative; */
+    width: 15rem;
+    height:3.5rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    background: #742173;
+    color:white;
+    border:none;
+    outline: none;
+}
+.rec-generate button:hover{
+    transition: 150ms ease-in   ;
+    color: #742173;
+    outline-width: 5px ;
+    outline-style: solid;
+    outline-color: #742173;
+    background-color: white;
+
+}
+
+
+#passengers-no{
+    border:none;
+    outline: none;
+    background-color: transparent;
+    width: 100%;
+    height: 70%;
+    text-align: center;
+    text-align-last: center;
+    font-family: 'Quicksand';
+    font-size:1.5rem;
+    font-weight: bold;
+    color:#742173;
+}
+#passengers-no option{
+    color:#742173;
+    font-weight: bold;
+
+  
+}
+
+
+@media (max-width:1100px) 
+{/* tablet size*/
+    .intro span{
+        
+        font-size:6rem; 
+        margin-top:8vh;
+        
+    }
+    
+    .intro p{
+       
+        width: 40vw;
+       
+    
+    
+    }
+    #space-div h1{
+        margin-left: 35%;
+    }
+    #passengers-no{
+        font-size:1rem;
+    }
+   
+    .rec-generate span{
+        /* position: relative; */
+        margin-top:1.25rem;
+        margin-right: 4rem;
+        font-size:1.5rem;
+        /* color:white; */
+        font-weight: bold;
+    }
+    .rec-generate button{
+        /* position: relative; */
+        width: 10rem;
+        height:2.5rem;
+        margin-top: 1rem;
+        font-size: 1.25rem;
+        font-weight: bold;
+       
+    }
+}
+
+@media (max-width: 600px) 
+{
+    .intro span{
+        font-size:4rem;
+        left:5vw;
+        
+    }
+    .intro p{
+   
+        right:0;
+        width: 80%;
+        left:5vw;
+  
+        font-size: 1.85rem;
+ 
+    }
+    #space-div h1{
+        font-size: 1.85rem;
+        margin-left: 30%;
+    }
+    #space-table thead{
+        font-size: 1.0rem;
+        font-weight: bold;
+        height: 8rem;
+        margin-bottom: 2rem;
+    }
+    .table-row{
+        font-size:0.9rem;
+        height: 4rem;
+        margin-bottom: 2rem;
+    }
+    #passengers-no{
+        font-size:0.8rem;
+    }
+   
+    .rec-generate span{
+        /* position: relative; */
+        margin-top:1.25rem;
+        margin-right: 4rem;
+        font-size:1rem;
+        /* color:white; */
+        font-weight: bold;
+    }
+    .rec-generate button{
+        /* position: relative; */
+        width: 8rem;
+        height:2.5rem;
+        margin-top: 1rem;
+        font-size: 1rem;
+        font-weight: bold;
+        /* background: #742173;
+        color:white;
+        border:none;
+        outline: none; */
+    }
+}

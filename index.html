@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="././css/index.css">
+    <link rel="stylesheet" href="././css/common.css">
+    <title>Space-Xplore</title>
+</head>
+
+
+<body>
+
+    <div class="intro">
+        <span id='space-xplore'>SPACE XPLORE</span>
+        <p id='space-para'>Get to your destination faster than ever! Use our crafts with the new sonic boom technology.
+        </p>
+    </div>
+    <div id="space-div">
+        <h1>Select your ride...</h1>
+        <table align="center
+        " id='space-table'>
+            <thead>
+                <tr>
+                    <td>Spacecraft name</td>
+                    <td> Origin</td>
+                    <td> Destination</td>
+                    <td>Price per person</td>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr class="table-row" id='row1' data-id="row1" data-state="off">
+
+
+                    <td>ax12</td>
+                    <td>Sector 3</td>
+                    <td>Sector 5A-12</td>
+                    <td>450</td>
+
+
+                </tr>
+
+
+                <tr class="table-row" id='row2' data-id="row2" data-state="off">
+
+                    <td>ax13</td>
+                    <td>Crater34</td>
+                    <td>Sector 3</td>
+                    <td>145</td>
+
+                </tr>
+
+                <tr class="table-row" id='row3' data-id="row3" data-state="off">
+
+                    <td>ax14</td>
+                    <td>Crater 34</td>
+                    <td>Sector 3A-5</td>
+                    <td>250</td>
+
+                </tr>
+                <tr class="table-row" id='row4' data-id="row4" data-state="off">
+
+                    <td>ax15</td>
+                    <td>Sector 5A-12</td>
+                    <td>LM-36 </td>
+                    <td>125</td>
+
+                </tr>
+                <tr class="table-row" id='row5' data-id="row5" data-state="off">
+
+                    <td>ax16</td>
+                    <td>Sector 5A-12</td>
+                    <td>Crater 34</td>
+                    <td>210</td>
+
+                </tr>
+                <tr class="table-row" id='row6' data-id="row6" data-state="off">
+
+                    <td>ax17</td>
+                    <td>Crater 34</td>
+                    <td>LM-36</td>
+                    <td>500</td>
+
+                </tr>
+
+            </tbody>
+        </table>
+
+
+    </div>
+    <div class="rec-generate">
+        <div class="passengers">
+            <select name="passengers-no" id="passengers-no">
+                <option>No.of passengers</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+
+        </div>
+        <span id='rec-total'">Total Cost: 0</span>
+        <a href=" ./receipt.html"><button>Confirm</button></a>
+    </div>
+    <script src="././js/index.js"></script>
+</body>
+
+
+</html>

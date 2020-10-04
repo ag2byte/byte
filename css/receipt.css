@@ -1,0 +1,144 @@
+body{
+    background: url('../images/247.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.receipt{
+    margin-top:5%;
+    margin-left:10%;
+    width: 80%;
+    background-color: white;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    padding:5vh;
+}
+.receipt span{
+    /* position: relative; */
+    /* padding-bottom: 100px; */
+    font-family: 'Gugi',sans-serif;
+    font-size: 5rem;
+}
+.receipt h1{
+margin-top: 6vh;
+margin-bottom: 3vh;
+
+
+}
+.receipt h3{
+    margin-top: 3vh;
+    margin-bottom: 1.5vh;
+}
+.receipt h4{
+    margin-top: 5vh;
+    margin-left: 45%;
+}
+.booked-craft{
+    margin-top: 10vh;
+    
+    margin-bottom: 10vh;
+    width: 100%;
+    border-collapse: collapse;
+    padding:40px;
+    border-spacing: 0px;
+    text-align: center;
+}
+td{
+    padding: 40px;
+}
+.booked-craft thead{
+    font-size: 1.25rem;
+    font-weight: bold;
+
+}
+#cost{
+    /* position: relative; */
+    font-size: 3rem;
+    margin-top: 10%;
+    margin-left: 50%;
+}
+#cost:hover{
+    color:#742173;
+    transition: 200ms ease-in-out;
+}
+button{
+    width: 15rem;
+    height:3.5rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    background: #742173;
+    color:white;
+    border:none;
+    outline: none;
+}
+
+@media (max-width: 1100px)
+{
+    .receipt{
+        margin-top:5%;
+        margin-left:5%;
+        width: 80%;
+        background-color: white;
+        height: 90vh;
+        align-items: center;
+        justify-content: center;
+        padding:5vh;
+    }
+    .booked-craft{
+        margin-top: 10vh;
+        
+        /* margin-bottom: 10vh; */
+        width: 80%;
+        /* text-align:center; */
+    }
+    .receipt h4{
+        font-size: large;
+        margin-top: 5vh;
+        margin-left: 0;
+    }
+    td{
+        padding: 10px;
+    }
+}
+@media (max-width:600px){
+    .receipt{
+        margin-top:5%;
+        margin-left:10px;
+        width: 80%;
+        background-color: white;
+        height: 90vh;
+        align-items: center;
+        justify-content: center;
+        padding:5vh;
+    }
+    .receipt span{
+
+        font-family: 'Gugi',sans-serif;
+        font-size: 3rem;
+    }
+    .booked-craft{
+        margin-top: 10vh;
+        margin-left: 0;
+        
+        /* margin-bottom: 10vh; */
+        width: 80%;
+        /* text-align:center; */
+    }
+    .booked-craft thead{
+        font-size: 0.9rem;
+        font-weight: bold;
+    
+    }
+    #cost{
+        font-size: 1.5rem;
+        margin-top: 10%;
+        margin-left: 50%;
+    }
+    button{
+        width: 10rem;
+        height:2.5rem;
+        margin-top: 1rem;
+        font-size: 1rem;
+       
+    }
+}
