@@ -81,8 +81,10 @@ function findTotal() {
     passengers = document.getElementById('passengers-no').value;
     cost = (price * passengers);
     localStorage.setItem('passengers', passengers);
-    document.getElementById('rec-total').innerText = 'Cost:' + cost;
-
+    if (passengers != 'No. of passengers')
+        document.getElementById('rec-total').innerText = 'Cost:' + cost;
+    else
+        document.getElementById('rec-total').innerText = 'Cost:0';
 
     console.log(passengers, price);
 }
@@ -100,10 +102,15 @@ function fadeElement(element, scrollLimit, pgscroll) {
         element.style.display = 'block';
     }
     //removing the element so that it does not overlap
-    if (pgscroll > 700)
+    if (pgscroll > 700) {
         element.style.display = "none";
-    else
+
+    }
+    else {
         element.style.display = 'block';
+
+    }
     element.style.opacity = opacity;
+
 
 }
