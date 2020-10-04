@@ -12,7 +12,7 @@ Use this portal to book your trip.
 - Currency is universal 
 
 ###### The website is live at:
-https://ag2byte.github.io/byte/ - automatic! 
+https://ag2byte.github.io/byte/ 
 
 
 ###### Tasks completed:
